@@ -3,3 +3,5 @@ seo optimization
 robots.txt
 
 lightwebspeed accessibility and seo checks. 
+
+test and learn gitlab ci process
