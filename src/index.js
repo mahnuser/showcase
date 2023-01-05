@@ -133,9 +133,19 @@ function initTheme() {
     }
 }
 
+
+function increaseDownloadCount(){
+  document.querySelector("download-cv").addEventListener('click', () => {
+    console.log('counted')
+  }
+  )
+}
+
+
 fillMain()
 initTheme()
 document.querySelector('#hide-checkbox').addEventListener('click', toggleTheme)
 document.querySelector("#copy-btn").addEventListener('click', copyEmail)
 let hiddenElements = document.querySelectorAll('.hide')
 hiddenElements.forEach((el) => observer.observe(el))
+increaseDownloadCount()
