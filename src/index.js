@@ -135,7 +135,7 @@ function initTheme() {
 
 
 function increaseDownloadCount(){
-  document.querySelector("download-cv").addEventListener('click', () => {
+  document.querySelector("#download-cv").addEventListener('click', () => {
     console.log('counted')
   }
   )
