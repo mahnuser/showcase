@@ -81,6 +81,155 @@
   animation-iteration-count: infinite;
 }
 
+.cloud-bottom-1 {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #FFF;
+  left: 125px;
+  top: 180px;
+  z-index: -10!important;
+}
+
+
+.cloud-1 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 105px;
+  top: 150px;
+}
+
+.cloud-2 {
+  position: absolute;
+  width: 100px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 145px;
+  top: 120px;
+}
+
+.cloud-3 {
+  position: absolute;
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 200px;
+  top: 90px;
+}
+
+.cloud-4 {
+  position: absolute;
+  width: 130px;
+  height: 115px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 295px;
+  top: 115px;
+}
+
+
+.cloud-bottom-2 {
+  position: absolute;
+  width: 240px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #FFF;
+  right: 120px;
+  top: 540px;
+  z-index: -10!important;
+}
+
+
+.cloud-5 {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FFF;
+  right: 105px;
+  top: 480px;
+  box-shadow: none!important;
+}
+
+.cloud-6 {
+  position: absolute;
+  width: 120px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #FFF;
+  right: 280px;
+  top: 480px;
+}
+
+.cloud-7 {
+  position: absolute;
+  width: 150px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #FFF;
+  right: 160px;
+  top: 450px;
+}
+
+.cloud-bottom-3 {
+  position: absolute;
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: #FFF;
+  left: 375px;
+  top: 750px;
+  z-index: -10!important;
+}
+
+
+.cloud-8 {
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 435px;
+  top: 690px;
+  z-index: -2!important;
+}
+
+.cloud-9 {
+  position: absolute;
+  width: 150px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 500px;
+  top: 670px;
+  z-index: -1!important;
+}
+
+.cloud-10 {
+  position: absolute;
+  width: 170px;
+  height: 155px;
+  border-radius: 50%;
+  background-color: #FFF;
+  left: 335px;
+  top: 645px;
+}
+
+.cloud-animation {
+  background-color: #FFF;
+  box-shadow: -1px 0 2px 0 rgba(0, 0, 0, 0.1);
+  animation: move;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  z-index: -3;
+}
+
 .star-delay-1 {
   animation-delay: -1s;
   animation-duration: 1.5s;
