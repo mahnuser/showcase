@@ -33,6 +33,11 @@
   transform: translateX(0);
 }
 
+.smash-cloud {
+  width: 5px;
+  height: 5px;
+  box-shadow: 1px 0 2px 2px rgba(255, 255, 255);
+}
 
 .custom-shape-divider-top-1671117377 {
   position: absolute;
