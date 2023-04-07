@@ -71,10 +71,10 @@ function fillMain() {
                   <div class="">
                     <div class="absolute bottom-0 inset-x-0 text-center">
                       <button type="button" class=" transition-settings hover:-translate-y-2 bg-red-400 hover:-translate-x-2 hover:shadow-lg hover:shadow-rose-700 hover:bg-rose-400 duration-200 w-16 text-white p-2 mx-2 mx-auto mb-3 text-center hover:cursor-pointer ${e.testLink == "" ? "disabled-gray" : ""}">    
-                        <a aria-label="test link to access project" href="${e.testLink != "" ? e.testLink : "#"}">Test</a>
+                        <a aria-label="test link to access project" target="_blank" href="${e.testLink != "" ? e.testLink : "#"}">Test</a>
                       </button>
                       <button type="button"  class=" bg-black transition-settings hover:translate-x-2 hover:-translate-y-2   hover:shadow-gray-700 hover:shadow-lg w-16 text-white p-2 mx-2 duration-200 mx-auto mb-3 text-center hover:cursor-pointer ${e.liveLink == "" ? "disabled-gray" : ""}">    
-                        <a aria-label="public link to access project" href="${e.liveLink != "" ? e.liveLink : "#"}">Live</a>
+                        <a aria-label="public link to access project" target="_blank" href="${e.liveLink != "" ? e.liveLink : "#"}">Live</a>
                       </button>
                     </div>
                   </div>

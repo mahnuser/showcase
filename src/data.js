@@ -1,6 +1,45 @@
 
 let data = [
     { 
+        name: "Dictionary",
+        desc: "Dictionary website which I work to add new features and fix existing bugs.",
+        testLink: "",
+        liveLink: "https://www.epiksozluk.com/",
+        technologies: "Django, Docker, Js",
+        date: "14/03/2023",
+        date2: "2023",
+        traffic: "5",
+        githubLink:"",
+        gitlabLink: "",
+
+    },
+    { 
+        name: "Cafe Website",
+        desc: "Website for local cafe.",
+        testLink: "https://cafe-website-20dfd.web.app",
+        liveLink: "https://cafe-website-20dfd.web.app",
+        technologies: "Firebase, Jquery, Bootstrap 5",
+        date: "16/02/2023",
+        date2: "2023",
+        traffic: "5",
+        githubLink:"",
+        gitlabLink: "",
+
+    },
+    { 
+        name: "Gaming Blog",
+        desc: "Gaming Blog site which has CMS.",
+        testLink: "https://cms-placeholder.web.app/",
+        liveLink: "https://cms-placeholder.web.app/",
+        technologies: "Firebase, Fire-CMS, Jquery, Bootstrap 5",
+        date: "27/02/2023",
+        date2: "2023",
+        traffic: "5",
+        githubLink:"",
+        gitlabLink: "",
+
+    },
+    { 
         name: "Love Meter",
         desc: "Calculates similarity between words.Calculates similarity between words.",
         testLink: "https://askolcer.mahnuser.dev",
