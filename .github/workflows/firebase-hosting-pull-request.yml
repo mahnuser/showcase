@@ -14,4 +14,4 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SHOWCASE_A43D5 }}'
-          projectId: showcase-a43d5
+          projectId: mahnuser-dev
