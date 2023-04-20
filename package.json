@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev" : "firebase serve && webpack --watch && npx tailwindcss -i ./src/make.css -o ./public/dist/make.css --watch"
+    "tailwind" : "npx tailwindcss -i ./src/input.css -o ./public/dist/make.css --watch",
+    "dev" : "webpack --watch"
   },
   "author": "",
   "license": "ISC",

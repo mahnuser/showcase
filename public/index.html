@@ -6,18 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="">
   <meta name="description" content="This is a portfolio webpage that contains my projects.">
-  
+
   <title> Mahnuser - Projects </title>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6L7T4R1Q8K"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6L7T4R1Q8K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-6L7T4R1Q8K');
-</script>
+    gtag('config', 'G-6L7T4R1Q8K');
+  </script>
 
   <!-- update the version number as needed -->
   <link rel="stylesheet" href="./dist/make.css">
@@ -31,7 +31,8 @@
   </style>
 </head>
 
-<body class="bg-myLight-100  text-myLight-900  min-h-screen dark:bg-gradient-to-b dark:from-mySpace-500 dark:to-mySpace-400 dark:text-myDark-100 m-0 p-0 font-mono">
+<body
+  class="bg-myLight-100  text-myLight-900  min-h-screen dark:bg-gradient-to-b dark:from-mySpace-500 dark:to-mySpace-400 dark:text-myDark-100 m-0 p-0 font-mono">
 
   <!-- 
     Dark / Light Toggle switch 
@@ -45,9 +46,10 @@
   -->
   <div class="absolute top-20 inset-x-0 z-10">
     <div class="wrapper">
-      
+
       <input type="checkbox" id="hide-checkbox" name='hide-checkbox' checked="false">
-      <label for="hide-checkbox" class="toggle" placeholder="toggle dark mode and light mode." aria-label="toggle dark mode and light mode.">
+      <label for="hide-checkbox" class="toggle" placeholder="toggle dark mode and light mode."
+        aria-label="toggle dark mode and light mode.">
         <span class="toggle-button">
           <span class="crater crater-1"></span>
           <span class="crater crater-2"></span>
@@ -78,29 +80,30 @@
           <div class="font-bold text-lg">
             INTRODUCTION
           </div>
-        <b class="font-bold"></b>  
+          <b class="font-bold"></b>
           <div class="font-thin">
             I am Mahmut, I have worked as a <b class="font-bold">FS web developer</b> before and
             now I have my company andlooking for contract based
             jobs or freelance agreements.
-            <br> 
+            <br>
             I mostly worked with <b class="font-bold">Python</b> and <b class="font-bold">Javascript</b>.
             <b class="font-bold"> I use Vim</b>.
             <br>
-            I usually use <b class="font-bold">Python</b>  for automation scripts and local apps. 
-            For my websites i use <b class="font-bold">Javascript</b>  for client side and server side, but learning
-            <b class="font-bold">Typescript</b>  and <b class="font-bold">Go</b>  for <b class="font-bold">Cloud functions</b> .
+            I usually use <b class="font-bold">Python</b> for automation scripts and local apps.
+            For my websites i use <b class="font-bold">Javascript</b> for client side and server side, but learning
+            <b class="font-bold">Typescript</b> and <b class="font-bold">Go</b> for <b class="font-bold">Cloud
+              functions</b> .
             <br>
             I learn game design and game programming using <b class="font-bold">Pygame</b> .
-            
+
           </div>
 
-        <div class="pt-4">
+          <div class="pt-4">
             Download CV
-            <a href="./download/Mahmut-Seliz-CV.pdf" download="Mahmut-Seliz-CV.pdf" id="download-cv" >     
+            <a href="./download/Mahmut-Seliz-CV.pdf" download="Mahmut-Seliz-CV.pdf" id="download-cv">
               <i class="fa-solid fa-download text-2xl"></i>
             </a>
-        </div>
+          </div>
         </div>
       </section>
     </div>
@@ -172,40 +175,47 @@
 
   <!-- Contact -->
   <div
-    class="pt-[149px] bg-myLight-300  dark:bg-transparent dark:text-myDark-200 text-center text-myLight-900 grid justify-content-center h-fit">
+    class="pt-[149px] bg-myLight-300  dark:bg-transparent dark:text-myDark-200 text-center text-myLight-900 grid justify-content-center h-fit pb-24">
 
-    <div>
+    <div class="mb-12">
       <span class="font-bold text-xl h-20">
         CONTACT
       </span>
     </div>
+    <div class="">
+      <div class="font-thin text-lg h-10">
+        <a class="hover:underline hover:cursor-pointer" href="mailTo:mahmutseliz26@gmail.com"> mahmutseliz26@gmail.com </a>
+        <div class="tooltip text-xl">
+          <button aria-label="copy email address" id="copy-btn" onclick="">
+            <span class="tooltiptext" id="myTooltip"> Copy</span>
 
-    <div class="font-thin text-lg h-20">
-      <span> mahmutseliz26@gmail.com </span>
-      <div class="tooltip text-xl">
-        <button aria-label="copy email address" id="copy-btn" onclick="">
-          <span class="tooltiptext" id="myTooltip"> Copy</span>
 
+            <i id='copy' class="fa-solid fa-copy transition-settings"></i>
+          </button>
+        </div>
 
-          <i id='copy' class="fa-solid fa-copy transition-settings"></i>
-        </button>
+        <a aria-label="Send email" name="email-link" href="mailTo:mahmutseliz26@gmail.com"><i
+            class="fa-solid fa-paper-plane text-xl"></i></a>
+
       </div>
+      <input id='mail-input' type="text" class="hidden" value="mahmutseliz26@gmail.com">
 
-      <a aria-label="Send email" name="email-link" href="mailTo:mahmutseliz26@gmail.com"><i class="fa-solid fa-paper-plane text-xl"></i></a>
-
-    <div class="justify-content-center">
-      <a href="http://linkedin.com" width="24" height="24">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        
-      
-        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-      
-      </svg>
-      </a>
+      <div class="font-bold hover:underline">
+        <a href="https://www.linkedin.com/in/mahmutseliz/" width="24" height="24">
+          LinkedIn
+        </a>
+      </div>
+      <div class="font-bold hover:underline">
+        <a href="https://www.upwork.com/freelancers/mahnuser" width="24" height="24">
+          Upwork
+        </a>
+      </div>
     </div>
-    </div>
-    <input id='mail-input' type="text" class="hidden" value="mahmutseliz26@gmail.com">
-
+      <div class="font-bold hover:underline">
+        <a href="https://bionluk.com/mahnuser" width="24" height="24">
+          Bionluk
+        </a>
+      </div>
   </div>
 
 
@@ -214,15 +224,23 @@
 
   <!-- <script src="dist/data.js"></script> -->
   <script>
-    
+
 
 
   </script>
 
 
-  
+
 
   <!-- 
+    LINKEDIN ICON SVG
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+
+
+            <path
+              d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+
+          </svg>
       if current_width >= min_width:
           effect applied 
 
